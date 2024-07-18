@@ -41,7 +41,7 @@ html{
 body{
     width: 100vw;
     height: 100vh;
-    font-family: "Helvetica";
+    font-family:  'arial';
     font-weight: bold;
 }
 
@@ -66,10 +66,6 @@ header{
     z-index: 1000;
 }
 
-#truckicon{
-    width: 50px;
-    height: 50px;
-}
 
 #logo{
     margin-left: 50px;
@@ -100,27 +96,30 @@ header{
 #headerLinks{
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .headerLink{
     text-decoration: none;
     color: var(--blue);
-    margin: 4px;
+    margin: 5px;
+}
+
+#headerButtons{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .button{
     margin: 0 8px 0 8px;
     cursor: pointer;
-    width: 100px;
-    height: 30px;
-    padding: px;
+    width: 130px;
+    height: 35px;
     border: 1px solid black;
     border-radius: 10px;
     background-color: white;
     font-size: 16px;
-    font-family: "Helvetica";
+    font-family: Helvetica;
 }
 
 .button:hover{
@@ -143,6 +142,11 @@ header{
     align-items: center;
     justify-content: center;
     gap: 4px;
+}
+
+#truckIcon{
+    width: 50px;
+    height: 50px
 }
 
 #rastreio{
@@ -203,6 +207,7 @@ header{
     font-size: 15px;
     color: grey;
     text-align: center;
+    max-width: 350px;
 }
 
 #aboutImages{
@@ -322,7 +327,7 @@ footer{
     margin: 6px;
     color: var(--lightgreen);
     font-size: 17px;
-    padding: 20px;
+    padding: 35px 25px
 }
 
 #helpBlocks{
@@ -358,7 +363,7 @@ footer{
 
 .textBlocks{
     color: grey;
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 12px;
 }
 
