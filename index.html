@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Front-end</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="container">
+        
+        <!-- Aqui o header foi utilizado em todas as páginas como a barra superior -->
+        <header>
+            <!-- o header possui 3 divs separando os contéudos para que o flexbox seja aplicado de forma correta -->
+            <div id="logo">
+                <img src="./imagens/icons8-caminhão-100.png" alt="truckxpress" id="truckicon">
+                <p>Rastreio Xpress</p>
+            </div>
+
+            <div id="headerLinks">
+                <a href="./index.html" class="headerLink">Home</a>
+                <a href="./about.html" class="headerLink">Sobre nós</a>
+                <a href="./partner.html" class="headerLink">Parceiros</a>
+                <a href="./help.html" class="headerLink">Ajuda</a>
+            </div>
+
+            <div id="headerbuttons">
+                <button class="button" id="sign_in">Entrar</button>
+                <button class="button" id="register">Cadastrar-se</button>
+            </div>
+
+        </header>
+        
+        <!-- A div content é usada para aplicar o flexbox no conteúdo do site inteiro -->
+        <div id="content">
+            <h1 class="titlepedido">Rastreie seu Pedido!</h1>
+            <div id="search">
+                <input type="text" placeholder="Código de rastreamento" id="searchBar">
+                <button id="rastreio"><img src="./imagens/icons8-localização-64 (3).png" id="local"></img>RASTREAR</button>
+            </div>
+            <img src="./imagens/boxes.svg">
+        </div>
+        
+    </div>
+    
+</body>
+</html>

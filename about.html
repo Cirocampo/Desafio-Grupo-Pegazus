@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nós</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="containerAbout">
+        
+        <!-- Aqui o header foi utilizado em todas as páginas como a barra superior -->
+        <header>
+            <!-- o header possui 3 divs separando os contéudos para que o flexbox seja aplicado de forma correta -->
+            <div id="logo">
+                <img src="./imagens/icons8-caminhão-100.png" alt="truckxpress" id="truckicon">
+                <p>Rastreio Xpress</p>
+            </div>
+
+            <div id="headerLinks">
+                <a href="./index.html" class="headerLink">Home</a>
+                <a href="./about.html" class="headerLink">Sobre nós</a>
+                <a href="./partner.html" class="headerLink">Parceiros</a>
+                <a href="./help.html" class="headerLink">Ajuda</a>
+            </div>
+
+            <div id="headerbuttons">
+                <button class="button" id="sign_in">Entrar</button>
+                <button class="button" id="register">Cadastrar-se</button>
+            </div>
+
+        </header>
+        
+        <!-- O aboutContent server para aplicar o flexbox em todo contéudo do site -->
+        <div id="aboutContent">
+
+            <h1 class="titleColor">Veja como o Rastreio Express pode facilitar sua rotina</h1>
+            <p class="text">As funcionalidades do Rastreio Express foram desenvolvidas para ajudar você a organizar a
+                rotina logística.</p>
+                <!-- aboutimages serve para aplicar o grid e os contéudos serem posicionados de forma correta, com apenas uma linha e 3 colunas -->
+            <div id="aboutImages">
+                <!-- a class section_about dá o estilo para os três cards dentro da página Sobre nós -->
+                <div class="sectionAbout">
+                    <img src="./imagens/search.svg" alt="lopa" class="aboutImg">
+                    <h4 class="titleColor aboutTitles">Busque por uma encomenda</h4>
+                    <p class="text">Use o Rastreio Express para encontrar suas encomendas. Basta colar o código de
+                        rastreio no campo de buscas e aproveitar.</p>
+                </div>
+
+                <div class="sectionAbout">
+                    <img src="./imagens/phone_loc.svg" alt="phone"class="aboutImg">
+                    <h4 class="titleColor aboutTitles">Acompanhe suas encomendas</h4>
+                    <p class="text">O Rastreio Express foi desenvolvido parais facilitar a visualização de suas
+                        encomendas.Nada de atualizações misteriosas e difíceis de entender.</p>
+                </div>
+
+                <div class="sectionAbout">
+                    <img src="./imagens/notification_bell.svg" alt="notification"class="aboutImg">
+                    <h4 class="titleColor aboutTitles">Receba notificações</h4>
+                    <p class="text">No Rastreio Express você acompanha tudo o que acontece com a sua encomenda
+                        diretamente no seu e-mail.</p>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- O footer servindo como outro bloco para o flexbox ser utilizado corretamente -->
+        <footer>
+            <h2 class="titleColor">O Rastreio Express foi desenvolvido especialmente para quem deseja usar uma
+                ferramenta simples e objetiva, sem enrolação.</h2>
+                <button id="cadastrar">CADASTRE-SE AGORA</button>
+            </footer>
+        
+    </div>
+
+</body>
+
+</html>
